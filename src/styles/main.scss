@@ -1,5 +1,7 @@
 @use 'hero';
 @use "variaveis";
+@use 'shows';
+@use 'plans';
 
 *{
     margin: 0;
@@ -74,4 +76,19 @@ body{
     margin-left: 120px;
     padding: 10px;
 
+}
+
+.button{
+    
+        display: block;
+        width: 80%;
+        height: 60px;
+        margin-left: 25px;
+        font-size: 18px;
+        color:variaveis.$corTextoSecundario ; 
+        background-color: #6421ff;
+        text-transform: uppercase;
+        border-radius: 6px;
+        margin-top: 2vw;
+        margin-bottom: 8px;               
 }
