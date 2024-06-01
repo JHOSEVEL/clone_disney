@@ -1,0 +1,16 @@
+.devices{
+    padding: 5.6vw;
+    display: flex;
+
+    &__list{
+        display: grid;
+        grid-template-columns:repeat(4, 25%);
+        
+        &__item{
+            text-align: center;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}

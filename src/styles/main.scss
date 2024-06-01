@@ -2,6 +2,8 @@
 @use "variaveis";
 @use 'shows';
 @use 'plans';
+@use 'assista';
+@use 'devices';
 
 *{
     margin: 0;
@@ -91,4 +93,8 @@ body{
         border-radius: 6px;
         margin-top: 2vw;
         margin-bottom: 8px;               
+}
+
+.N-texto{
+    position: absolute;
 }
